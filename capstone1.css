@@ -1,0 +1,159 @@
+/** {
+	border-color: black 1px;
+	border-style: solid;
+
+
+}*/
+
+
+
+body  {
+	 padding: 0;
+	 margin: 0;
+
+} 
+
+
+.navbar  {
+   background-color: white;
+   border-style: solid;
+   border: 1px;
+   border-color: #d1d1d1;
+  }
+
+.navbar-nav a:hover {
+	color: #ffdab9 
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: transparent;
+    color: #ffbdbd;
+}
+
+.navbar-left {
+	font-size: 1.2em;
+	font-family: Bad Script;
+	margin-top: 5px;
+}
+
+.navbar-right {
+	margin: 0;
+	padding-bottom: 1em;
+	margin-top: 1.5em;
+}
+
+.page-header {
+	color: #33cc99;
+	text-align: center;
+    font-family: 'Bad+Script', cursive;
+    margin: 1px;
+    padding-top: 3em;
+    font-size: 1em;
+
+}
+
+
+
+
+.page-header small {
+	color: #ff4d4d
+
+}
+
+.page-header img {
+	width: 1.5em;
+	height: 1em;
+	padding: 8px;
+	border-color: pink;
+}
+
+/*.border-top {
+
+	width: 100% auto;
+	height: 100% auto;
+	background-image: url(csimages/pinktop.jpg);
+	background-repeat: repeat-x;
+	
+}*/
+
+.border-top img {
+	border-image-repeat: repeat-x;
+	/*width: 100% auto;
+	height: auto;
+	padding: 1em;
+	padding-left: 100% auto;
+	margin: 1em;
+	margin-top: -1em;
+	padding-top: -1em;
+	margin-left: -5em;*/
+	
+}
+
+
+
+
+
+
+/*background: url("csimages/pastelbanner.jpg");
+-webkit-background-size: 100% 100%;
+-moz-background-size: 100% 100%;
+-o-background-size: 100% 100%;
+background-size: 100% 100%;*/
+
+}    
+
+
+img {
+	width: 100%;
+	height: auto;
+    position: relative;
+}
+
+/*footer {
+	position: absolute; 
+	bottom: 0px;
+	width: 100%;
+	height: 70px;
+	margin-right: 70px;
+	background-color: #ffdab9;
+}
+*/
+
+/*footer {
+	background-color: #a6a6a6;
+	height: 50px;
+	text-align: center;
+	color: #ffffff;
+	line-height: 70px;
+	bottom: 0;
+	margin-top: 45px;
+
+}	*/
+
+.gallery {
+	border: 1px;
+}
+
+.gallery: hover {
+	
+}
+
+/*.fa, .fa-2x, .fa-twitter, .fa-facebook, .fa-pinterest, .fa-instagram {
+	background-color:pink !important;
+}*/
+
+footer {
+	width: 100% auto;
+	background-color: #eee7e7;
+	height: 5em;
+	margin-top: 10%;
+	text-align: center;
+}
+
+#navbar-right {
+	float: right;
+	width: 350px;
+	text-align: right;
+	margin: 0;
+	list-style-type: none;
+}
